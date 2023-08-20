@@ -44,12 +44,12 @@ public class OrderService {
         // Call Inventory Service, and place order if product is in
         // stock
         log.info("Checking inventory");
-//        InventoryResponse[] inventoryResponsArray = webClientBuilder.build().get()
-//                .uri("http://inventory-service/api/inventory",
-//                        uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())
-//                .retrieve()
-//                .bodyToMono(InventoryResponse[].class)
-//                .block();
+        InventoryResponse[] inventoryResponsArray = webClientBuilder.build().get()
+               .uri("http://inventory-service/api/inventory",
+                       uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())
+                .retrieve()
+                .bodyToMono(InventoryResponse[].class)
+                .block();
 
         boolean allProductsInStock = inventoryClient.checkStock(skuCodes)
                 .stream()
