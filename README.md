@@ -50,7 +50,8 @@ Following image shows that we can successfully make order after checking in with
 
 
 
-![Uploading Screenshot (20).jpg…]()
+![Screenshot (20)](https://github.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/0b56223d-e3d9-423f-9d48-a5c700ccf87a)
+
 
 
 
