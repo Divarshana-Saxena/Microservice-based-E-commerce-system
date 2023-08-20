@@ -1,11 +1,20 @@
 # Microservice-based-E-commerce-system
 
-A scalable and fault tolerant microservices based E-commerce system with Eureka Discovery Server. The architecture has three micro services as shown in high level architecture diagram below: 
+A scalable and fault tolerant microservices based E-commerce system with Eureka Discovery Server. The architecture has three micro services as shown in high level architecture diagram below. The model also comprises of discovery server and API gateway. Discovery server maintains local copy at each service to manage URL of each services.
 
 
 ![Microservice Diagram drawio](https://github.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/d12bede0-e4b1-4855-b39d-1c9e2af30156)
 
+Following image shows that we are successfully storing product information with HTTP status as 201 Created. 
 ![Screenshot (12)](https://github.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/8e320a94-1621-4535-8767-34c2a7bd7ddf)
+
+Following image shows that we can successfully retreive product information from our database with HTTP status as 200 OK. 
 ![Screenshot (16)](https://github.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/a5a905f6-b576-4988-b9e1-03f2c733f9aa)
+
+Image snippet of our databases and tables of inventory and order service.
 ![Screenshot (18)](https://github.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/e466d65d-6254-422f-80ad-f37986a35e0a)
-![Screenshot (20)](https://github.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/54607ff2-0459-4191-ae38-39457e82e4ca)
+
+Following image shows that we can successfully make order after checking in with inventory service if product is in stock or not information with HTTP status as 201 Created. 
+![Screenshot (20)](https://githucanb.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/54607ff2-0459-4191-ae38-39457e82e4ca)
+
+The application supports service discovery, API gateway, Authentication, Circuit Breaker and Load Balancing.
