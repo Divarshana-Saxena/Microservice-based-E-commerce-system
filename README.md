@@ -1,5 +1,6 @@
 # Microservice-based-E-commerce-system
-A scalable and fault tolerant microservices based E-commerce system with Eureka Discovery Server 
+
+A scalable and fault tolerant microservices based E-commerce system with Eureka Discovery Server. The architecture has three micro services as shown in high level architecture diagram below: 
 
 
 ![Microservice Diagram drawio](https://github.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/d12bede0-e4b1-4855-b39d-1c9e2af30156)
