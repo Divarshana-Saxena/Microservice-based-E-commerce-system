@@ -7,14 +7,23 @@ A scalable and fault tolerant microservices based E-commerce system with Eureka 
 
 
 
+
+
+
 Following image shows that we are successfully storing product information with HTTP status as 201 Created. 
+
+
 
 
 ![Screenshot (12)](https://github.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/8e320a94-1621-4535-8767-34c2a7bd7ddf)
 
 
 
+
+
 Following image shows that we can successfully retreive product information from our database with HTTP status as 200 OK. 
+
+
 
 
 ![Screenshot (16)](https://github.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/a5a905f6-b576-4988-b9e1-03f2c733f9aa)
@@ -22,7 +31,11 @@ Following image shows that we can successfully retreive product information from
 
 
 
+
+
 Image snippet of our databases and tables of inventory and order service.
+
+
 
 
 ![Screenshot (18)](https://github.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/e466d65d-6254-422f-80ad-f37986a35e0a)
@@ -30,10 +43,16 @@ Image snippet of our databases and tables of inventory and order service.
 
 
 
+
+
 Following image shows that we can successfully make order after checking in with inventory service if product is in stock or not information with HTTP status as 201 Created. 
 
 
-![Screenshot (20)](https://githucanb.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/54607ff2-0459-4191-ae38-39457e82e4ca)
+
+
+![Uploading Screenshot (20).jpg…]()
+
+
 
 
 
