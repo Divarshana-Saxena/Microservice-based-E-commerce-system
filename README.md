@@ -38,7 +38,6 @@ Image snippet of our databases and tables of inventory and order service.
 
 
 
-![Screenshot (18)](https://github.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/e466d65d-6254-422f-80ad-f37986a35e0a)
 ![Screenshot (18) (1)](https://github.com/Divarshana-Saxena/Microservice-based-E-commerce-system/assets/140905073/a183edcc-0332-4ff6-87b3-014e61e527fc)
 
 
