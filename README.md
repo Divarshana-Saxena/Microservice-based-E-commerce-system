@@ -59,4 +59,4 @@ Following image shows that we can successfully make order after checking in with
 
 
 
-The application supports service discovery, API gateway, Authentication, Circuit Breaker and Load Balancing.
+The application supports service discovery, API gateway, Circuit Breaker and Load Balancing.
